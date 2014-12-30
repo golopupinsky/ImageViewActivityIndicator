@@ -14,6 +14,8 @@
 		5840881A1A52D775008505ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584088191A52D775008505ED /* Images.xcassets */; };
 		5840881D1A52D775008505ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5840881B1A52D775008505ED /* LaunchScreen.xib */; };
 		584088291A52D775008505ED /* ImageViewActivityIndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 584088281A52D775008505ED /* ImageViewActivityIndicatorTests.m */; };
+		588A56FB1A52D7F50050B9CB /* ActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 588A56FA1A52D7F50050B9CB /* ActivityIndicatorView.m */; };
+		588A57001A52DBEE0050B9CB /* UIImage-Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 588A56FF1A52DBEE0050B9CB /* UIImage-Extensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		584088221A52D775008505ED /* ImageViewActivityIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewActivityIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		584088271A52D775008505ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		584088281A52D775008505ED /* ImageViewActivityIndicatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewActivityIndicatorTests.m; sourceTree = "<group>"; };
+		588A56F91A52D7F50050B9CB /* ActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorView.h; sourceTree = "<group>"; };
+		588A56FA1A52D7F50050B9CB /* ActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorView.m; sourceTree = "<group>"; };
+		588A56FE1A52DBEE0050B9CB /* UIImage-Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Extensions.h"; sourceTree = "<group>"; };
+		588A56FF1A52DBEE0050B9CB /* UIImage-Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Extensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				584088191A52D775008505ED /* Images.xcassets */,
 				5840881B1A52D775008505ED /* LaunchScreen.xib */,
 				5840880C1A52D775008505ED /* Supporting Files */,
+				588A56F91A52D7F50050B9CB /* ActivityIndicatorView.h */,
+				588A56FA1A52D7F50050B9CB /* ActivityIndicatorView.m */,
+				588A56FE1A52DBEE0050B9CB /* UIImage-Extensions.h */,
+				588A56FF1A52DBEE0050B9CB /* UIImage-Extensions.m */,
 			);
 			path = ImageViewActivityIndicator;
 			sourceTree = "<group>";
@@ -220,8 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				584088151A52D775008505ED /* ViewController.m in Sources */,
+				588A57001A52DBEE0050B9CB /* UIImage-Extensions.m in Sources */,
 				584088121A52D775008505ED /* AppDelegate.m in Sources */,
 				5840880F1A52D775008505ED /* main.m in Sources */,
+				588A56FB1A52D7F50050B9CB /* ActivityIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +426,7 @@
 				5840882E1A52D775008505ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5840882F1A52D775008505ED /* Build configuration list for PBXNativeTarget "ImageViewActivityIndicatorTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +435,7 @@
 				584088311A52D775008505ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
