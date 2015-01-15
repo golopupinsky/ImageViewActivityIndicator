@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0C26E0E7-0AA5-4C2A-A931-ACFE81D09D32</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ImageViewActivityIndicator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E93092C714C77AFAAEA6A0C65DDB4AD1424F9EA6</key>
+		<string>https://github.com/golopupinsky/ImageViewActivityIndicator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ImageViewActivityIndicator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E93092C714C77AFAAEA6A0C65DDB4AD1424F9EA6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/golopupinsky/ImageViewActivityIndicator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E93092C714C77AFAAEA6A0C65DDB4AD1424F9EA6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E93092C714C77AFAAEA6A0C65DDB4AD1424F9EA6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ImageViewActivityIndicator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
